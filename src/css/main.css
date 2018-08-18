@@ -10,7 +10,7 @@ body{height:100%;overflow: hidden; background-position: center; background-size:
 .load,.pg1{overflow: hidden;background: url(http://dsjy.sae.sinacdn.com/img/load_bg.png) bottom center no-repeat;}
 .load_01{position: absolute; left:50%; margin-left:-176px; top:236px;}
 /*.load_02{position: absolute; left: 50%; top:446px; margin-left:-59px;-webkit-transform: scale(0.3,0.3);}*/
-.load_02{position: absolute; left: 50%; top:-100px; margin-left:-228px;}
+.load_02{position: absolute; top:-100px;left:0; right:0;width:240px;margin: auto;}
 .load_03{width:365px; height: 15px; position: absolute; left:50%; top:690px; margin-left:-183px;
     background:url(http://dsjy.sae.sinacdn.com/img/load_03.png);}
 .load_num{width:0px; height: 11px; position: absolute; left: 0px; top:2px; background: #c1c1c1; border-radius: 10px;}

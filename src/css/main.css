@@ -56,9 +56,11 @@ body{height:100%;overflow: hidden; background-position: center; background-size:
 .p3_logo{position: absolute; bottom: 0px; left: 50%; margin-left:-204px;}
 .p3_07{position: absolute; left: -30px; bottom: 0px;}
 /*.p3_txt{position: absolute; left: 50%; margin-left:-170px; top:450px;-webkit-transform: scale(0.93);}*/
-.p3_txt{position: absolute; left: 0; top:450px; margin: 0 auto; -webkit-transform: scale(0.93);}
-.p3_txt .title{display: flex;justify-content: center;}
-.p3_txt .title .item{flex: 1}
+.p3_txt{position: absolute; left: 0; right: 0; top:450px;width: 350px; font-size: 40px; margin: 0 auto; -webkit-transform: scale(0.93);}
+.p3_txt .title{display: flex;justify-content: center; width: 60%;margin: 0 auto; color: #fff;}
+.p3_txt .title .item{flex: 1; text-align: center}
+.p3_txt .content {width: 80%;margin: 40px auto 0; font-size: 20px; color: #fff;}
+.p3_txt .content .item{font-size: 14px;}
 
 #tgif{display: none;}
 .p3_photo{position: absolute; width:100%; z-index: 4; opacity: 0;bottom: 145px; left: 0px;}

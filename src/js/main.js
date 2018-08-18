@@ -14,7 +14,6 @@ $(function(){
   mbg.load();
   var inscriptionArr = [
     {
-      pinyin: 'Pìn yīn1',
       title: '贪欲',
       content: [
         '我们最大的贪欲就是自以为是',
@@ -22,176 +21,154 @@ $(function(){
       ]
     },
     {
-      pinyin: 'Pìn yīn2',
-      title: '贪欲',
+      title: '贪欲2',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn3',
-      title: '贪欲',
+      title: '贪欲3',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn4',
-      title: '贪欲',
+      title: '贪欲4',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn5',
-      title: '贪欲',
+      title: '贪欲5',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn6',
-      title: '贪欲',
+      title: '贪欲6',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲7',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲8',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲9',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲10',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲11',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲12',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲13',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲14',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲15',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲16',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲17',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲18',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲19',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲20',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲21',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn',
-      title: '贪欲',
+      title: '贪欲22',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
       ]
     },
     {
-      pinyin: 'Pìn yīn23',
-      title: '贪欲',
+      title: '贪欲23',
       content: [
         '我们最大的贪欲就是自以为是',
         '可以掌控所有事情。'
@@ -351,16 +328,7 @@ $(function(){
       $('.p2_txt').css('background-image','url(http://dsjy.sae.sinacdn.com/img/temple/t'+temple+'.png)');
 
       // $('.p3_txt').attr('src','http://dsjy.sae.sinacdn.com/img/temple/t'+temple+'.png');
-      var htm = ''
-      var inscription = inscriptionArr[temple]
-      if(inscription){
-        var titleCharacters = inscription.title.split('')
-        var titHtm = '<p class="titl">'
-        for(var i=0; i<titleCharacters.length; i++){
-          titHtm += '<span>'+ titleCharacters[i] +'</span>'
-        }
-        titHtm+='</p>'
-      }
+      pg3TextRender()
       pg2();
 
 
@@ -389,6 +357,30 @@ $(function(){
 
     }
   })
+
+  //页面三内容修改
+  function pg3TextRender() {
+    var htm = ''
+    var content = ''
+    var inscription = inscriptionArr[temple]
+    if(inscription){
+      var titleCharacters = inscription.title.split('')
+      var titHtm = '<p class="title">'
+      for(var i=0; i<titleCharacters.length; i++){
+        titHtm += '<span class="item">'+ titleCharacters[i] +'</span>'
+      }
+      titHtm+='</p>'
+
+      var contentArr = ['<div class="content">']
+      $.each(inscription.content, function (i, txt) {
+        contentArr.push('<p>'+ txt + '</p>')
+      })
+      contentArr.push('</div>')
+      content = contentArr.join('')
+    }
+
+    $('.p3_txt').html(titHtm + content)
+  }
   //加载咖啡页面
   function pg1()
   {
@@ -449,7 +441,8 @@ $(function(){
     $('.p3_photo').attr('src',purl);
     $('.p3_name').html(name);
     $('.pg2').show();
-    anime({targets: ['.pg2'],delay:2500,opacity:[0,1],easing: "linear",duration: 2000,autoplay:true})
+    anime({targets: ['.pg2'],delay:1200,opacity:[0,1],easing: "linear",duration: 2000,autoplay:true})
+    anime({targets: ['.p3_txt'],delay:2000,opacity:[0,1], easing:"linear", duration:1000, autoplay: true})
     $('.p3_06').addClass('huxi');
     //$('.p3_01,.p3_02,.p3_03,.p3_name,.p3_05,.p3_06,.p3_txt,.p3_btn01,.p3_btn02').css('opacity',1);
     //anime({targets: ['.p3_01,.p3_02,.p3_03'],delay:800,opacity:[0,1],easing: "linear",duration: 1000,autoplay:true})
@@ -458,22 +451,23 @@ $(function(){
 //重做
   $('.p3_btn01').bind('click',function(){
     temple=randoms(1,23);
-    $.ajax({
-      type: "POST",
-      dataType: "json",
-      url: 'http://dsjy.ronghuiad.com/api/index.php/api/createPoster',
-      data: {
-        name: name,
-        sort:temple
-      },
-      success: function(data) {
-        if(data.state == 200) {
-          purl=data.data;
-          $('.p3_photo').attr('src',purl);
-        }
-      }
-    })
-    $('.p3_txt').attr('src','http://dsjy.sae.sinacdn.com/img/temple/t'+temple+'.png');
+    // $.ajax({
+    //   type: "POST",
+    //   dataType: "json",
+    //   url: 'http://dsjy.ronghuiad.com/api/index.php/api/createPoster',
+    //   data: {
+    //     name: name,
+    //     sort:temple
+    //   },
+    //   success: function(data) {
+    //     if(data.state == 200) {
+    //       purl=data.data;
+    //       $('.p3_photo').attr('src',purl);
+    //     }
+    //   }
+    // })
+    pg3TextRender()
+    // $('.p3_txt').attr('src','http://dsjy.sae.sinacdn.com/img/temple/t'+temple+'.png');
     anime({targets: ['.p3_txt'],delay:100,opacity:[0,1],easing: "linear",duration: 800,autoplay:true})
 //	time=0;
 //	$('.pg2').fadeOut(50);

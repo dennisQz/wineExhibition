@@ -1,0 +1,127 @@
+.load_02a{-webkit-animation: load_02a 1s infinite  linear alternate; -webkit-transform-origin: bottom center;}
+@-webkit-keyframes load_02a {
+    0%{-webkit-transform: rotate(-15deg) scale(0.3,0.3);}
+    100%{-webkit-transform: rotate(15deg) scale(0.3,0.3);}
+}
+.load_02b{-webkit-animation: load_02b 2s ease-out forwards; -webkit-transform-origin: center center;}
+@-webkit-keyframes load_02b {
+    0%{-webkit-transform: scale(0.3,0.3);top:155px;}
+    100%{-webkit-transform: scale(1,1);top:274px;}
+}
+.load_02c{-webkit-animation: load_02c 1s infinite  linear alternate; -webkit-transform-origin: bottom center;
+    -webkit-transform: rotate(0deg) scale(0.3,0.3);}
+@-webkit-keyframes load_02c {
+    0%{-webkit-transform: rotate(0deg) scale(0.3,0.3);}
+    100%{-webkit-transform: rotate(0deg) scale(0.3,0.3);}
+}
+.shan{-webkit-animation: shan 0.8s infinite 2s ease-out alternate;opacity: 0;}
+.shan2{-webkit-animation: shan 0.4s infinite 0.5s ease-out alternate; opacity: 0;}
+@-webkit-keyframes shan {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.p2_txta{-webkit-animation: p2_txta linear 3s forwards;}
+@-webkit-keyframes p2_txta {
+    0%{-webkit-transform: scale(0.8,0.8);}
+    100%{-webkit-transform: scale(1,1);}
+}
+.fangda_1{-webkit-animation: fangda_1 linear 2s forwards;-webkit-transform-origin: center center;}
+@-webkit-keyframes fangda_1 {
+    0%{-webkit-transform: scale(0.8,0.8);opacity: 1; top:616}
+    100%{-webkit-transform: scale(1,1);opacity: 1;top:625px;}
+}
+.fangda_2{-webkit-animation: fangda_2 linear 2s forwards;}
+@-webkit-keyframes fangda_2 {
+    0%{-webkit-transform: scale(1,1);opacity: 1;}
+    100%{-webkit-transform: scale(1.25,1.25);opacity: 1;}
+}
+.pload{-webkit-animation: pload 3s normal linear infinite;}
+@-webkit-keyframes pload {
+    0%{-webkit-transform: rotate(0deg);}
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+
+
+.huang{-webkit-animation: huang 2.5s infinite 2s ease-out alternate;}
+@-webkit-keyframes huang {
+    0%{left:100px;}
+    3%{left:90px;}
+    6%{left:100px;}
+    9%{left:90px;}
+    12%{left:100px;}
+    15%{left:90px;}
+    18%{left:100px;}
+    100%{left:100px;}
+}
+.in_07a{-webkit-animation: in_07a 0.6s infinite ease-out alternate; -webkit-transform-origin: bottom;}
+@-webkit-keyframes in_07a {
+    0%{-webkit-transform: rotate(0deg);}
+    50%{-webkit-transform: rotate(2deg);}
+    100%{-webkit-transform: rotate(0deg);}
+}
+.in_03a{-webkit-animation: in_03a 3s infinite ease-out alternate; -webkit-transform-origin: bottom;}
+@-webkit-keyframes in_03a {
+    0%{-webkit-transform: rotate(0deg);}
+    5%{-webkit-transform: rotate(5deg);}
+    10%{-webkit-transform: rotate(0deg);}
+    15%{-webkit-transform: rotate(5deg);}
+    20%{-webkit-transform: rotate(0deg);}
+    100%{-webkit-transform: rotate(0deg);}
+}
+.ma_03a{-webkit-animation: ma_03a 0.2s infinite 0.9s ease-out alternate;}
+@-webkit-keyframes ma_03a {
+    0%{top:360px;}
+    100%{top:365px;}
+}
+.qsa{-webkit-animation: qsa 0.6s ease-out forwards;}
+@-webkit-keyframes qsa {
+    0%{opacity: 0;}
+    10%{opacity: 1;}
+    20%{opacity: 0;}
+    30%{opacity: 1;}
+    50%{opacity: 0;}
+    60%{opacity: 1;}
+    100%{opacity: 1;}
+}
+
+.nexta{-webkit-animation: nexta 0.2s infinite ease-out alternate;}
+@-webkit-keyframes nexta {
+    0%{bottom: 25px;}
+    100%{bottom: 35px;}
+}
+.fxa{-webkit-animation: fxa 0.5s infinite ease-out alternate;}
+@-webkit-keyframes fxa {
+    0%{top: 200px;}
+    100%{top: 180px;}
+}
+
+
+
+
+.p1_05an{-webkit-animation: p1_05an 0.6s infinite ease-out alternate;}
+@-webkit-keyframes p1_05an {
+    0%{-webkit-transform: rotate(-5deg);}
+    100%{-webkit-transform: rotate(5deg);}
+}
+.left_jt{-webkit-animation: left_jt 0.3s infinite ease-out alternate;}
+@-webkit-keyframes left_jt {
+    0%{left:195px;}
+    100%{left:180px;}
+}
+.huxi{-webkit-animation: huxi 0.6s infinite ease-out alternate;}
+@-webkit-keyframes huxi {
+    0%{-webkit-transform:scale(1)}
+    100%{-webkit-transform:scale(0.9)}
+}
+@-webkit-keyframes gougou {
+    0%{opacity: 1;}
+    30%{opacity: 1;}
+    40%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@-webkit-keyframes fx {
+    0%{top:0px; }
+    100%{top:20px; }
+}

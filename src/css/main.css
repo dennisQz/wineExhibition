@@ -1,0 +1,65 @@
+@charset "utf-8";
+html,body{margin:0px;width:100%;height:100%; padding: 0px; overflow: hidden;}
+body{height:100%;overflow: hidden; background-position: center; background-size: 100% 100%;}
+#container,#wrap{height:100%;width:100%;overflow: hidden;background:#000;}
+.page{width:100%; height: 100%;overflow: hidden;}
+#mp3{position: absolute; top:20px; right: 20px; z-index: 3;}
+.load,.pg1,.pg2{display: none;}
+.bcont{position: absolute; width:100%; height: 1180px; top:50%; margin-top: -590px; left: 50%; margin-left: -375px;}
+.bcont1{position: absolute; width:100%; height: 1180px; top:0px; left: 50%; margin-left: -375px;}
+.load,.pg1{overflow: hidden;background: url(http://dsjy.sae.sinacdn.com/img/load_bg.png) bottom center no-repeat;}
+.load_01{position: absolute; left:50%; margin-left:-176px; top:236px;}
+/*.load_02{position: absolute; left: 50%; top:446px; margin-left:-59px;-webkit-transform: scale(0.3,0.3);}*/
+.load_02{position: absolute; left: 50%; top:-100px; margin-left:-228px;}
+.load_03{width:365px; height: 15px; position: absolute; left:50%; top:690px; margin-left:-183px;
+    background:url(http://dsjy.sae.sinacdn.com/img/load_03.png);}
+.load_num{width:0px; height: 11px; position: absolute; left: 0px; top:2px; background: #c1c1c1; border-radius: 10px;}
+.load_04{position: absolute; left: 50%; margin-left:-147px; top:738px;display: none;}
+.p1_01{position: absolute; left: 0; top:20px; right:0; text-align:center;color: #ccc;  opacity: 0;font-size: 32px; font-weight: bold;}
+.p1_01 p{padding: 0 0 2px 0;margin:0;}
+.p1_02{position: absolute; left: 50%; width:394px; height: 63px; margin-left: -197px; top:135px;
+    background: url(http://dsjy.sae.sinacdn.com/img/p1_02.png) center no-repeat;opacity: 0;}
+#Tname{position:absolute;width:370px; height: 55px; left:0px;font-size: 32px;
+    line-height: 55px; text-align: center; color: #fff;background-color:transparent;border:0px;}
+/*.p1_03{position: absolute; left: 50%; top:275px; margin-left:-228px;-webkit-transform: scale(1,1);}*/
+.p1_next{position: absolute; bottom: 5px; left: 50%; margin-left:-33px;opacity: 0;}
+.p1_info{position: absolute; bottom: 5px; right:26px;opacity: 0;}
+.mark{position: absolute; width:100%; height: 100%; z-index: 2; background: #000; display: none;}
+.msg_mark{position: absolute; width:100%; height: 100%; z-index: 2; background: #000;opacity: 0.9; display: none;}
+.msg_01{position: absolute; width:500px; height: 230px; left: 50%; margin-left: -250px; z-index: 3;
+    background: url(http://dsjy.sae.sinacdn.com/img/msg_01.png) center no-repeat; top:50%; margin-top: -115px; display: none;}
+.msg_btn{position: absolute; left: 50%; margin-left:-92px; top:120px;}
+.mz_info{position: absolute; left: 50%; margin-left:-304px; top:10px; width:608px; height: 1151px;
+    background: url(http://dsjy.sae.sinacdn.com/img/mz_info.png) center bottom no-repeat;}
+.mz_btn{position: absolute; bottom: 35px; left: 50%; margin-left: -93px;}
+.pg1{position:absolute;overflow: hidden; background-position:top center; background-repeat: no-repeat;}
+.pg1bg{background-image: url(http://dsjy.sae.sinacdn.com/img/xulie/001.jpg);}
+.p2_01{position: absolute; left: 50%; margin-left: -123px; top:50px;opacity: 0;}
+.p2_03{position: absolute; left: 270px; top:250px; opacity: 0;}
+.logo{position: absolute; left: 50%; margin-left: -163px; bottom: 10px;opacity: 0;}
+/*.p2_txt{position: absolute; left: 50%; margin-left:-140px; top:520px;}*/
+.p2_txt{position: absolute; left: 50%; margin-left:-140px; top:600px;-webkit-transform: scale(0.8,0.8);
+    width:310px; height: 0px; background-repeat: no-repeat; background-position: bottom center; background-size: 100%;
+    -webkit-transform-origin: bottom center; display: none;}
+.pg2{position:absolute;overflow: hidden; background: url(http://dsjy.sae.sinacdn.com/img/p3_bg.png) top center no-repeat; opacity: 0;}
+.p3_name{position: absolute; width:220px; height:50px; left: 105px; top:10px;color:#202871; font-size: 48px;
+    line-height: 50px; text-align: left; font-weight: bold;}
+.p3_01{position: absolute;left:65px; top:10px;}
+.p3_02{position: absolute; right:65px; top:10px;}
+.p3_03{position: absolute;left: 50%; margin-left:-360px; top:140px;}
+.p3_04{position: absolute;left: 50%; margin-left:-218px; top:278px;}
+.p3_05{position: absolute;left: 50%; margin-left:-345px; top:355px;}
+.p3_06{position: absolute;left: 50%; margin-left:-86px; bottom:150px;}
+.p3_btn{position: absolute; bottom: 75px;}
+.p3_btn01{left:90px;}
+.p3_btn02{right:90px;}
+.p3_logo{position: absolute; bottom: 0px; left: 50%; margin-left:-204px;}
+.p3_07{position: absolute; left: -30px; bottom: 0px;}
+/*.p3_txt{position: absolute; left: 50%; margin-left:-170px; top:450px;-webkit-transform: scale(0.93);}*/
+.p3_txt{position: absolute; left: 0; top:450px; margin: 0 auto; -webkit-transform: scale(0.93);}
+.p3_txt .title{display: flex;justify-content: center;}
+.p3_txt .title .item{flex: 1}
+
+#tgif{display: none;}
+.p3_photo{position: absolute; width:100%; z-index: 4; opacity: 0;bottom: 145px; left: 0px;}
+.suoxiao{-webkit-transform: scale(0.92,0.92);}

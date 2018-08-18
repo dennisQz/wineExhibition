@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>这杯珍酒解箴言！</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/anim.css" />
+  <script src="js/v.js"></script>
+  <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/resLoader.js"></script>
+  <script src="js/anime.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // var _hmt = _hmt || [];
+    // (function() {
+    //   var hm = document.createElement("script");
+    //   hm.src = "https://hm.baidu.com/hm.js?4d408ef52a0fadce7ae19c176651e5e7";
+    //   var s = document.getElementsByTagName("script")[0];
+    //   s.parentNode.insertBefore(hm, s);
+    // })();
+  </script>
+</head>
+<body>
+<div id="container">
+  <div id="wrap">
+    <audio id="mbg" src="http://dsjy.sae.sinacdn.com/mp3/bg.mp3" autoplay="autoplay" loop="loop" preload="metadata"></audio>
+    <img src="http://dsjy.sae.sinacdn.com/img/music_on.png" id="mp3" />
+    <div class="mark">
+      <div class="bcont">
+        <div class="mz_info">
+          <img src="http://dsjy.sae.sinacdn.com/img/mz_btn.png" class="mz_btn" />
+        </div>
+      </div>
+    </div>
+    <div class="msg_mark"></div>
+    <div class="msg_01">
+      <img src="http://dsjy.sae.sinacdn.com/img/msg_btn.png" class="msg_btn" />
+    </div>
+    <div class="page load">
+      <div class="bcont">
+        <img src="http://dsjy.sae.sinacdn.com/img/load_01.png" class="load_01" onclick="return false" />
+        <img src="img/p1_03.png" class="load_02 load_02a" onclick="return false" />
+        <div class="load_03">
+          <div class="load_num"></div>
+        </div>
+        <img src="http://dsjy.sae.sinacdn.com/img/load_04.png" class="load_04" onclick="return false" />
+
+        <!--<img src="http://dsjy.sae.sinacdn.com/img/p1_01.png" class="p1_01" onclick="return false" />-->
+        <div class="p1_01" onclick="return false" >
+          <p>邀您品尝一杯箴言酱香美酒</p>
+          <p>请您签上自己的名字</p>
+        </div>
+        <div class="p1_02">
+          <input type="text" id="Tname" class="Tname" placeholder="请输入1~4个汉字"  />
+        </div>
+        <img src="http://dsjy.sae.sinacdn.com/img/p1_next.png" class="p1_next" />
+        <img src="http://dsjy.sae.sinacdn.com/img/p1_info.png" class="p1_info" />
+      </div>
+    </div>
+    <div class="page pg1">
+      <canvas id="tgif" width="750" height="1448"></canvas>
+      <div class="bcont1">
+        <img src="http://dsjy.sae.sinacdn.com/img/p2_01.png" class="p2_01" onclick="return false" />
+        <img src="http://dsjy.sae.sinacdn.com/img/p2_03.png" class="p2_03" />
+        <img src="http://dsjy.sae.sinacdn.com/img/logo.png" class="logo" onclick="return false" />
+        <div class="p2_txt"></div>
+      </div>
+    </div>
+    <div class="page pg2">
+      <div class="bcont">
+        <div class="p3_name"></div>
+        <img src="http://dsjy.sae.sinacdn.com/img/p3_01.png" class="p3_01" onclick="return false" />
+        <img src="http://dsjy.sae.sinacdn.com/img/p3_02.png" class="p3_02" onclick="return false" />
+        <img src="http://dsjy.sae.sinacdn.com/img/p3_03.png" class="p3_03" onclick="return false" />
+        <!--<img src="" class="p3_txt" />-->
+        <div class="p3_txt">
+
+        </div>
+        <img src="http://dsjy.sae.sinacdn.com/img/p3_05.png" class="p3_05" onclick="return false" />
+        <img src="http://dsjy.sae.sinacdn.com/img/p3_06.png" class="p3_06" onclick="return false" />
+        <img src="http://dsjy.sae.sinacdn.com/img/p3_btn01.png" class="p3_btn p3_btn01" />
+        <img src="http://dsjy.sae.sinacdn.com/img/p3_btn02.png" class="p3_btn p3_btn02" />
+        <img src="http://dsjy.sae.sinacdn.com/img/p3_logo.png" class="p3_logo" onclick="return false" />
+        <img src="" class="p3_photo" />
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+  /* var shareObject = {
+    title: '这杯珍酒解箴言！',
+    desc: '抽今日箴言签，半价品大师珍酒～',
+    link: 'http://dsjy.ronghuiad.com/',
+    imgUrl: 'http://dsjy.ronghuiad.com/share.jpg'
+  };
+
+  wx.config({
+    debug: false,
+    appId: 'wxe0ed287f7cef4fc1',
+    timestamp: 1534476985,
+    nonceStr: 'etkkD8f4edDBt3ze',
+    signature: 'd33380f20e85f941f829fb55e2bf31158a208444',
+    jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage']
+  });
+
+  wx.ready(function (){
+    wx.onMenuShareTimeline({
+      title: shareObject.desc,
+      desc:  shareObject.title,
+      link: shareObject.link,
+      imgUrl: shareObject.imgUrl,
+      success: function () {
+        //alert(shareObject.link);
+        // 用户确认分享后执行的回调函数
+      },
+      cancel: function () {
+        // 用户取消分享后执行的回调函数
+      }
+    });
+    wx.onMenuShareAppMessage({
+      title: shareObject.title,
+      desc:  shareObject.desc,
+      link: shareObject.link,
+      imgUrl: shareObject.imgUrl,
+      type: 'link',
+      success: function () {
+        //alert(shareObject.link);
+        // 用户确认分享后执行的回调函数
+      },
+      cancel: function () {
+        // 用户取消分享后执行的回调函数
+      }
+    });
+  }); */
+</script>
+</body>
+</html>
+
+
+

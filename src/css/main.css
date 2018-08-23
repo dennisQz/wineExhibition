@@ -5,7 +5,15 @@ body{height:100%;overflow: hidden; background-position: center; background-size:
 .page{width:100%; height: 100%;overflow: hidden;}
 #mp3{position: absolute; top:20px; right: 20px; z-index: 3;}
 .load,.pg1,.pg2{display: none;}
-.bcont{position: absolute; width:100%; height: 1180px; top:50%; margin-top: -590px; left: 50%; margin-left: -375px;}
+/*.bcont{position: absolute; width:100%; height: 1180px; top:50%; margin-top: -590px; left: 50%; margin-left: -375px;}*/
+.bcont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
 .bcont1{position: absolute; width:100%; height: 1180px; top:0px; left: 50%; margin-left: -375px;}
 .load,.pg1{overflow: hidden;background: url(http://dsjy.sae.sinacdn.com/img/load_bg.png) bottom center no-repeat;}
 .load_01{position: absolute; left:50%; margin-left:-176px; top:236px;}
@@ -46,7 +54,8 @@ body{height:100%;overflow: hidden; background-position: center; background-size:
     line-height: 50px; text-align: left; font-weight: bold;}
 .p3_01{position: absolute;left:65px; top:10px;}
 .p3_02{position: absolute; right:65px; top:10px;}
-.p3_03{position: absolute;left: 50%; margin-left:-360px; top:140px;}
+/*.p3_03{position: absolute;left: 50%; margin-left:-360px; top:140px;}*/
+.p3_03{position: absolute;left: 0;right: 0;top: 162px;width: 100%;margin: 0 auto;}
 .p3_04{position: absolute;left: 50%; margin-left:-218px; top:278px;}
 .p3_05{position: absolute;left: 50%; margin-left:-345px; top:355px;}
 .p3_06{position: absolute;left: 50%; margin-left:-86px; bottom:150px;}
@@ -56,7 +65,7 @@ body{height:100%;overflow: hidden; background-position: center; background-size:
 .p3_logo{position: absolute; bottom: 0px; left: 50%; margin-left:-204px;}
 .p3_07{position: absolute; left: -30px; bottom: 0px;}
 /*.p3_txt{position: absolute; left: 50%; margin-left:-170px; top:450px;-webkit-transform: scale(0.93);}*/
-.p3_txt{position: absolute; left: 0; right: 0; top:450px;width: 350px; font-size: 40px; margin: 0 auto; -webkit-transform: scale(0.93);}
+.p3_txt{position: absolute; left: 0; right: 0; top:650px;width: 350px; font-size: 40px; margin: 0 auto; -webkit-transform: scale(0.93);}
 .p3_txt .title{display: flex;justify-content: center; width: 60%;margin: 0 auto; color: #fff;}
 .p3_txt .title .item{flex: 1; text-align: center}
 .p3_txt .content {width: 80%;margin: 40px auto 0; font-size: 20px; color: #fff;}
